@@ -18,7 +18,7 @@ from pathlib import Path
 SERVER_IP = os.environ.get("REMOTE_ADMIN_SERVER", "192.168.0.22")
 SERVER_PORT = int(os.environ.get("REMOTE_ADMIN_PORT", "9999"))
 SERVER_CERT = os.environ.get("REMOTE_ADMIN_SERVER_CERT", "server-cert.pem")
-AUTH_TOKEN = os.environ.get("REMOTE_ADMIN_TOKEN", "rzFPRz79hvx27GD5ecBKqFmqa8xERpeFihkobNY5FqM")
+AUTH_TOKEN = os.environ.get("REMOTE_ADMIN_TOKEN", "yoX2XXdUhc1PIY8boIwPHAzFnNG61ydo51aZDVH7VKQ")
 MAX_FILE_SIZE = 128 * 1024 * 1024
 FILE_CHUNK_SIZE = 48 * 1024
 active_process = None
